@@ -1,0 +1,218 @@
+{
+  "colors": [
+    {
+      "$id": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+      "color": "0xFFFF0000",
+      "name": "Untitled Palette Color",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+      "color": "0xFFFFF300",
+      "name": "inf in",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+      "color": "0xFF000000",
+      "name": "inf out",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "export": true,
+  "guid": "cbcb8371-4cb1-4ea2-8b6c-921bbdbf3e63",
+  "id": "assisttemplateCostumes",
+  "imageAsset": "cbd30092-fa18-4fc7-b81a-6bbb11469a0b",
+  "maps": [
+    {
+      "$id": "a3763a06-ae5e-446b-a2ac-b53bdb2a5b9e",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x2FF0000"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0x2FFFFFF"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0x2FFFFFF"
+        }
+      ],
+      "name": "Default",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": true,
+          "teamColor": "GREEN"
+        }
+      }
+    },
+    {
+      "$id": "649b82ed-3327-4bf4-b757-629617a57f5c",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7FFF0000"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0x2FFFFFF"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0x2FFFFFF"
+        }
+      ],
+      "name": "Red Team",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false,
+          "teamColor": "RED"
+        }
+      }
+    },
+    {
+      "$id": "0fa628b4-1973-4323-a5c8-cd23c0bcc2b0",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7F2300FF"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0x2FFFFFF"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0x2FFFFFF"
+        }
+      ],
+      "name": "Blue Team",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false,
+          "teamColor": "BLUE"
+        }
+      }
+    },
+    {
+      "$id": "128fd357-7a9e-4e01-bd6a-138a712c5553",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7F10FF00"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0x200FF03"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0x2000000"
+        }
+      ],
+      "name": "Green Team",
+      "pluginMetadata": {
+        "com.fraymakers.FraymakersMetadata": {
+          "isBase": false,
+          "teamColor": "GREEN"
+        }
+      }
+    },
+    {
+      "$id": "0b56ca49-270b-4f97-b83c-e16df3cbac3a",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7FFF00DD"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0xFFFF58E8"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "pink",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "e6d9c507-17de-4565-be3d-beb08fb178ef",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7F00FFFA"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0xFF00FAFF"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "cyan",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "6d53104f-6ac9-4184-a1ef-f704c04c771f",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7FF4FF00"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0xFFFFF300"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0xFF000000"
+        }
+      ],
+      "name": "yellow",
+      "pluginMetadata": {
+      }
+    },
+    {
+      "$id": "bd9fd613-33da-44cb-8bab-ee79d159b0ed",
+      "colors": [
+        {
+          "paletteColorId": "d57c0c74-d364-442d-bba8-bdc5db04ce50",
+          "targetColor": "0x7F000000"
+        },
+        {
+          "paletteColorId": "0dc263ac-b5fc-476e-9c15-aa836b794c89",
+          "targetColor": "0xFF000000"
+        },
+        {
+          "paletteColorId": "492c5492-c68d-45d4-abea-2c37506e1fb7",
+          "targetColor": "0xFFFFFFFF"
+        }
+      ],
+      "name": "black",
+      "pluginMetadata": {
+      }
+    }
+  ],
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

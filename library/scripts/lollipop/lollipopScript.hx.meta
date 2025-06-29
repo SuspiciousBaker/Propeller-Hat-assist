@@ -1,0 +1,18 @@
+{
+  "export": true,
+  "guid": "ae046a68-be9e-4428-9d5a-e3e24eecf0b5",
+  "id": "lollipopScript",
+  "language": "hscript",
+  "pluginMetadata": {
+    "com.fraymakers.FraymakersMetadata": {
+      "objectType": "PROJECTILE",
+      "version": "0.1.2"
+    }
+  },
+  "plugins": [
+    "com.fraymakers.FraymakersMetadata"
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

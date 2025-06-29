@@ -1,0 +1,13 @@
+{
+  "export": true,
+  "guid": "13001ead-6ab7-4f75-bfcd-f29de2528dcd",
+  "id": "lollipopHitboxStats",
+  "language": "hscript",
+  "pluginMetadata": {
+  },
+  "plugins": [
+  ],
+  "tags": [
+  ],
+  "version": 1
+}

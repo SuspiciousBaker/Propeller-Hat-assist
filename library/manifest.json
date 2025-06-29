@@ -1,0 +1,51 @@
+{
+  "resourceId": "PropellerHat",
+  "content": [
+    {
+      "id": "PropellerHat",
+      "name": "Propeller Hat",
+      "description": "An example assist character for Fraymakers.",
+      "type": "assist",
+      "objectStatsId": "assisttemplateAssistObjectStats",
+      "animationStatsId": "assisttemplateAnimationStats",
+      "hitboxStatsId": "assisttemplateHitboxStats",
+      "scriptId": "assisttemplateScript",
+      "costumesId": "assisttemplateCostumes",
+      "metadata": {
+        "ui": {
+          "entityId": "menu",
+          "render": {
+            "animation": "assist_full",
+            "animation_icon_no_palette": "assist_css"
+          },
+          "hud": {
+            "animation": "assist_hud"
+          },
+          "css": {
+            "animation": "assist_css",
+            "info": {
+              "game": "Propeller Hat Land (i made it up)",
+              "description": "allows the wearer to fly for a short while and makes them look really silly"
+            }
+          }
+        }
+      }
+    },
+    {
+      "id": "assisttemplateProjectile",
+      "type": "projectile",
+      "objectStatsId": "assisttemplateProjectileObjectStats",
+      "animationStatsId": "assisttemplateProjectileAnimationStats",
+      "hitboxStatsId": "assisttemplateProjectileHitboxStats",
+      "scriptId": "assisttemplateProjectileScript"
+    },
+    {
+      "id": "lollipop",
+      "type": "projectile",
+      "objectStatsId": "lollipopStats",
+      "animationStatsId": "lollipopAnimationStats",
+      "hitboxStatsId": "lollipopHitboxStats",
+      "scriptId": "lollipopScript"
+    }
+  ]
+}
