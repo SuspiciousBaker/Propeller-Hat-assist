@@ -1,5 +1,5 @@
 // API Script for Template Assist
-var hat = self.makeObject(null);
+var hat = self.makeObject(null); 
 // Set up same states as AssistStats (by excluding "var", these variables will be accessible on timeline scripts!)
 STATE_IDLE = 0;
 STATE_JUMP = 1;
@@ -35,7 +35,6 @@ function initialize(){
 }
 
 function update(){
-	//addMeter = meter.currentFrame;
 	//repositioning stuff
 		self.setX(self.getOwner().getX());
 		self.setY(self.getOwner().getY() + self.getOwner().getEcbHeadY() -10);
@@ -46,11 +45,12 @@ function update(){
 	else {
 		self.faceRight();
 	}
-	if (self.getOwner().getHeldControls().UP || self.getOwner().getHeldControls().JUMP) {//self.getOwner().inActionableState()
+	//fly
+	if (self.getOwner().getHeldControls().UP || self.getOwner().getHeldControls().JUMP) {
 	if (self.getOwner().inActionableState() || !self.getOwner().isOnFloor()) {
 		if (self.getOwner().getYSpeed() >-2 && self.inState(STATE_IDLE)) {
 		self.getOwner().setYSpeed(self.getYSpeed() -2);
-		meter.currentFrame = meter.currentFrame + 1;
+		meter.currentFrame = meter.currentFrame + 1; // deplete the meter
 		self.toState(STATE_JUMP);
 		}
 		if (self.getOwner().getYSpeed() >-2 && self.inState(STATE_JUMP)) {
